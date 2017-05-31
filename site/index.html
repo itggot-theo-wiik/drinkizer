@@ -11,17 +11,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
-    <!-- <script language="JavaScript" type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<body onload="bg_color()">
+    <script language="JavaScript" type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script> -->
     <script language="JavaScript" type="text/javascript" src="js/script.js"></script>
 
+    <header>
+        <p>Drinkizer</p>
+        <p>V 0.001</p>
+    </header>
+
     <main>
-        <header>
-            <div class="changg"></div>
-            <p>V 0.1</p>
-        </header>
+
+
+        <div>
+            <div class="results"></div>
+            <a href="#">
+                <div class="button" onclick="which_drink()" id="button">
+                    <h1>Press Me</h1>
+                </div>
+            </a>
+        </div>
+
     </main>
 
 
