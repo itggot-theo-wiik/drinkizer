@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: pink;
+    background-color: #69F0AE;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 48px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/*Färger*/
+
+.cyan {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.changg {
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+}
